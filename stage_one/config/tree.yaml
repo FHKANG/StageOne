@@ -1,0 +1,15 @@
+StageOne:
+    data:
+    bin:
+        main: main.py
+    project_name:
+        __init__: __init__.py
+        config:
+            __init__: __init__.py
+            config: config.py
+        main: main.py
+        version: version.py
+    CHANGELOG: CHANGELOG.md.md
+    README: README.md
+    requirements: requirements.txt
+    setup: setup.py
