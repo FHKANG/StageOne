@@ -42,6 +42,9 @@ def mk_py(file_path: str):
         [
             "# !/usr/bin/python3",
             "# -*- coding: utf-8 -*-",
+            '"""',
+            'Module docstring',
+            '"""',
             ""
         ]
     )
@@ -49,15 +52,23 @@ def mk_py(file_path: str):
 
 
 def mk_changelog(file_path: str):
+    """构建CHANGELOG文件，并初始化文件内容
+
+    Args:
+        file_path: 文件地址
+
+    Returns:
+
+    """
     file_text = "\n".join(
         [
             "# Changelog",
             "",
             "All notable changes to this project will be documented in this file.",
             "",
-            "The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),",
-            "and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).",
+            "The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).",
             "# Types of changes",
+            "",
             "Added  for new features. Changed for changes in existing functionality. Deprecated for soon-to-be removed features. Removed for now removed features. Fixed for any bug fixes. Security in case of vulnerabilities.",
             ""
         ]

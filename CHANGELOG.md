@@ -11,6 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 `Removed` for now removed features.
 `Fixed` for any bug fixes.
 `Security` in case of vulnerabilities.
+
+## [0.0.2] - 2023-10-18
+### Added
+- 增加Git能力(clone, add, commit以及push)
+
 ## [0.0.1] - 2023-10-16
 ### Added
 - 初始化
